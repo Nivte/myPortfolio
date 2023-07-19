@@ -1,0 +1,65 @@
+$blackcolor: #0d0d0d;
+$whitecolor: #f2f2f2;
+$lightbluecolor: #70abdf;
+
+header {
+  background-color: $lightbluecolor;
+  height: 10vh;
+}
+
+nav {
+  background-color: $whitecolor;
+  height: 3vh;
+}
+
+.page {
+  color: $blackcolor;
+  font-size: 2rem;
+  margin-left: 2vw;
+}
+
+h1 {
+  color: $blackcolor;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: $whitecolor;
+}
+
+h2 {
+  color: $blackcolor;
+  background-color: $whitecolor;
+  text-align: center;
+}
+
+p {
+  color: $blackcolor;
+  background-color: $whitecolor;
+  height: 20vh;
+}
+
+.sec1 {
+  background-color: $whitecolor;
+}
+
+.sec2 {
+}
+
+.container {
+  display: flex;
+  width: 1vw;
+}
+
+
+
+
+
+.sec3 {
+}
+
+footer {
+  background-color: $lightbluecolor;
+  height: 10vh;
+}

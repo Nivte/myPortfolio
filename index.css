@@ -1,0 +1,61 @@
+header {
+  background-color: #70abdf;
+  height: 10vh;
+}
+
+nav {
+  background-color: #f2f2f2;
+  height: 3vh;
+}
+
+.page {
+  color: #0d0d0d;
+  font-size: 2rem;
+  margin-left: 2vw;
+}
+
+h1 {
+  color: #0d0d0d;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  color: #0d0d0d;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+p {
+  color: #0d0d0d;
+  background-color: #f2f2f2;
+  height: 20vh;
+}
+
+.sec1 {
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  width: 1vw;
+}
+
+.card {
+  width: 18vw;
+}
+
+.card-img-top {
+  height: 10vh;
+  -webkit-padding-end: 1vh;
+          padding-inline-end: 1vh;
+}
+
+footer {
+  background-color: #70abdf;
+  height: 10vh;
+}/*# sourceMappingURL=index.css.map */
