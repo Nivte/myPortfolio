@@ -32,16 +32,18 @@ h2 {
   color: $blackcolor;
   background-color: $whitecolor;
   text-align: center;
+  margin-bottom: 4vh;
 }
 
 p {
   color: $blackcolor;
-  background-color: $whitecolor;
-  height: 20vh;
+
+  height: 10vh;
+  margin-left: 1vw;
 }
 
-.sec1 {
-  background-color: $whitecolor;
+.bioSec {
+  text-align: center;
 }
 
 .sec2 {
@@ -49,12 +51,25 @@ p {
 
 .container {
   display: flex;
-  width: 1vw;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
 }
 
+.card1 {
+  border: solid black;
+  margin-block: 2vh;
+  margin-inline-start: 0.6vw;
+  height: 54vh;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
 
-
-
+.btn {
+  width: 10vw;
+  position: relative;
+  left: 3vw;
+}
 
 .sec3 {
 }
@@ -62,4 +77,106 @@ p {
 footer {
   background-color: $lightbluecolor;
   height: 10vh;
+}
+
+.fa.fa-whatsapp {
+  border: 5px double #40b44f;
+  border-radius: 50%;
+  color: #40b44f;
+  padding: 1vh;
+  margin-inline-start: 1vw;
+}
+
+.fa.fa-facebook {
+  border: 5px double #3b5998;
+  color: #3b5998;
+  border-radius: 50%;
+  padding-block: 1vh;
+  padding-inline: 1.4vh;
+  margin-inline-start: 1vw;
+}
+
+.fa.fa-linkedin {
+  border: 5px double #007bb6;
+  color: #007bb6;
+  border-radius: 50%;
+  padding: 1vh;
+  margin-inline-start: 1vw;
+}
+
+.social-icons {
+  padding: 30px;
+  background-color: #00506b;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #fff;
+  line-height: 30px;
+  font-size: 30px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons a i {
+  line-height: 30px;
+  font-size: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    margin: 0vw;
+  }
+
+  h1 {
+    width: 55vw;
+    margin-left: 12vw;
+  }
+
+  h2 {
+    position: relative;
+    left: -9vw;
+  }
+
+  .bioSec {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .btn {
+    width: 30vw;
+    position: relative;
+    left: 15vw;
+  }
+
+  .sec3 {
+    height: 30vh;
+  }
+
+  .sec4 {
+    height: 30vh;
+  }
+
+  .bioSec h2 {
+    margin-left: 19vw;
+  }
 }
