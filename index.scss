@@ -28,11 +28,25 @@ body {
   background-color: $whitecolor;
 }
 
-h2 {
+.galleryTitle {
   color: $blackcolor;
   background-color: $whitecolor;
-  text-align: center;
-  margin-bottom: 4vh;
+  position: relative;
+  left: 28vw;
+}
+
+.sec3Title {
+  color: $blackcolor;
+  background-color: $whitecolor;
+  position: relative;
+  left: -4vw;
+}
+
+.sec4Title {
+  color: $blackcolor;
+  background-color: $whitecolor;
+  position: relative;
+  left: -4vw;
 }
 
 p {
@@ -72,6 +86,13 @@ p {
 }
 
 .sec3 {
+  text-align: center;
+}
+
+.sec4 {
+  text-align: center;
+
+
 }
 
 footer {
@@ -142,24 +163,32 @@ footer {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   body {
     margin: 0vw;
   }
 
   h1 {
     width: 55vw;
-    margin-left: 12vw;
+    margin-left: 18vw;
   }
 
   h2 {
-    position: relative;
-    left: -9vw;
+    position: absolute;
+    left: 23vw;
+  }
+
+  .bioTitle {
+    margin-right: 5vw;
+    top: 35vh;
   }
 
   .bioSec {
+    margin-top: 10vh;
     width: 80vw;
-    height: 30vh;
+    height: 20vh;
+    margin-left: 7vw;
+    margin-bottom: 0vh;
   }
 
   .btn {
@@ -173,7 +202,7 @@ footer {
   }
 
   .sec4 {
-    height: 30vh;
+    height: 25vh;
   }
 
   .bioSec h2 {

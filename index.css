@@ -24,11 +24,25 @@ body {
   background-color: #f2f2f2;
 }
 
-h2 {
+.galleryTitle {
   color: #0d0d0d;
   background-color: #f2f2f2;
-  text-align: center;
-  margin-bottom: 4vh;
+  position: relative;
+  left: 28vw;
+}
+
+.sec3Title {
+  color: #0d0d0d;
+  background-color: #f2f2f2;
+  position: relative;
+  left: -4vw;
+}
+
+.sec4Title {
+  color: #0d0d0d;
+  background-color: #f2f2f2;
+  position: relative;
+  left: -4vw;
 }
 
 p {
@@ -51,8 +65,7 @@ p {
 .card1 {
   border: solid black;
   margin-block: 2vh;
-  -webkit-margin-start: 0.6vw;
-          margin-inline-start: 0.6vw;
+  margin-inline-start: 0.6vw;
   height: 54vh;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
@@ -62,6 +75,14 @@ p {
   width: 10vw;
   position: relative;
   left: 3vw;
+}
+
+.sec3 {
+  text-align: center;
+}
+
+.sec4 {
+  text-align: center;
 }
 
 footer {
@@ -74,8 +95,7 @@ footer {
   border-radius: 50%;
   color: #40b44f;
   padding: 1vh;
-  -webkit-margin-start: 1vw;
-          margin-inline-start: 1vw;
+  margin-inline-start: 1vw;
 }
 
 .fa.fa-facebook {
@@ -84,8 +104,7 @@ footer {
   border-radius: 50%;
   padding-block: 1vh;
   padding-inline: 1.4vh;
-  -webkit-margin-start: 1vw;
-          margin-inline-start: 1vw;
+  margin-inline-start: 1vw;
 }
 
 .fa.fa-linkedin {
@@ -93,8 +112,7 @@ footer {
   color: #007bb6;
   border-radius: 50%;
   padding: 1vh;
-  -webkit-margin-start: 1vw;
-          margin-inline-start: 1vw;
+  margin-inline-start: 1vw;
 }
 
 .social-icons {
@@ -137,21 +155,28 @@ footer {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   body {
     margin: 0vw;
   }
   h1 {
     width: 55vw;
-    margin-left: 12vw;
+    margin-left: 18vw;
   }
   h2 {
-    position: relative;
-    left: -9vw;
+    position: absolute;
+    left: 23vw;
+  }
+  .bioTitle {
+    margin-right: 5vw;
+    top: 35vh;
   }
   .bioSec {
+    margin-top: 10vh;
     width: 80vw;
-    height: 30vh;
+    height: 20vh;
+    margin-left: 7vw;
+    margin-bottom: 0vh;
   }
   .btn {
     width: 30vw;
@@ -162,7 +187,7 @@ footer {
     height: 30vh;
   }
   .sec4 {
-    height: 30vh;
+    height: 25vh;
   }
   .bioSec h2 {
     margin-left: 19vw;
