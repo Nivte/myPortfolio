@@ -28,21 +28,26 @@ body {
   color: #0d0d0d;
   background-color: #f2f2f2;
   position: relative;
-  left: 28vw;
+  left: 25vw;
+  margin-left: 17vw;
 }
 
 .sec3Title {
   color: #0d0d0d;
-  background-color: #f2f2f2;
+
   position: relative;
-  left: -4vw;
+
+  left: 0vw;
+
 }
 
 .sec4Title {
   color: #0d0d0d;
   background-color: #f2f2f2;
   position: relative;
-  left: -4vw;
+  left: 0vw;
+
+  
 }
 
 p {
@@ -53,6 +58,7 @@ p {
 
 .bioSec {
   text-align: center;
+  font-size: 2.5vh;
 }
 
 .container {
@@ -79,10 +85,20 @@ p {
 
 .sec3 {
   text-align: center;
-}
+  font-size: 2.5vh;
+  height: 75vh;
+  margin-top: 10vh;
+  background-color: #70abdf;
+
+  }
+
+
 
 .sec4 {
   text-align: center;
+  font-size: 2.5vh;
+  height: 30vh;
+
 }
 
 footer {
@@ -155,7 +171,50 @@ footer {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 900px) {
+.langContainer {
+  margin-top: 6vh;
+  display: flex;
+justify-content: center;
+gap: 4vw;
+/* background-color: #f2f2f2; */
+}
+
+.htmlLogo {
+  height: 13vh;
+  width: 5vw;
+}
+
+.cssLogo {
+  height: 12vh;
+  width: 4vw;
+}
+
+.scssLogo {
+  height: 12vh;
+  width: 4vw;
+}
+.bsLogo {
+  height: 12vh;
+  width: 4vw;
+}
+.jsLogo {
+  height: 12vh;
+  width: 4vw;
+}
+.tsLogo {
+  height: 12vh;
+  width: 4vw;
+}
+
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+
+  .galleryTitle {
+    margin-left: 10vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
   body {
     margin: 0vw;
   }
@@ -184,12 +243,19 @@ footer {
     left: 15vw;
   }
   .sec3 {
-    height: 30vh;
+    height: 75vh;
   }
   .sec4 {
-    height: 25vh;
+    height: 30vh;
   }
   .bioSec h2 {
     margin-left: 19vw;
   }
-}/*# sourceMappingURL=index.css.map */
+
+
+  .galleryTitle {
+    margin-left: 0vw;
+  }
+
+
+} /*# sourceMappingURL=index.css.map

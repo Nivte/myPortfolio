@@ -24,7 +24,7 @@
       type="text/css"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <header>
@@ -104,16 +104,20 @@
 
       <!-- bootstrap cards start -->
 
-      <div class="container mx-4 mt-5">
-        <div class="card1 col-md-3 col-sm-5 col-10">
+      <div
+        class="container-fluid d-flex flex-wrap justify-content-around mx-0 mt-5"
+      >
+        <div
+          class="card1 mx-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 mx-sm-2 ms-md-3 mx-lg-0 col-xxl-3"
+        >
           <img
             class="card-img-top1 h-50 w-100 justify-content-center"
             src="kettles.jpeg.png"
             alt="Card image cap"
           />
-          <div class="card-body">
-            <h5 class="card-title text-center my-2">Kettles Factory</h5>
-            <p class="card-text text-center">
+          <div class="card-body ms-md-5">
+            <h5 class="card-title my-2 me-md-5 text-center">Kettles Factory</h5>
+            <p class="card-text text-center me-md-5">
               Classes game that includes both Data and UI
             </p>
             <a
@@ -123,7 +127,9 @@
             >
           </div>
         </div>
-        <div class="card1 col-md-3 col-sm-5 col-10">
+        <div
+          class="card1 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 mx-sm-2 mx-md-0 col-xxl-3"
+        >
           <img
             class="card-img-top1 h-50 w-100 justify-content-center"
             src="history.jpeg.png"
@@ -141,7 +147,9 @@
             >
           </div>
         </div>
-        <div class="card1 col-md-3 col-sm-5 col-10">
+        <div
+          class="card1 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-3 mx-sm-2 mx-md-0 ms-md-3 col-xxl-3"
+        >
           <img
             class="card-img-top1 h-50 w-100 justify-content-center"
             src="timer.jpeg.png"
@@ -159,7 +167,9 @@
             >
           </div>
         </div>
-        <div class="card1 col-md-3 col-sm-5 col-10">
+        <div
+          class="card1 col-10 col-sm-10 col-md-5 col-lg-5 mx-sm-2 mx-md-0 col-xl-3"
+        >
           <img
             class="card-img-top1 h-50 w-100 justify-content-center"
             src="plant.jpeg.png"
@@ -172,12 +182,14 @@
             </p>
             <a
               href="https://nivte.github.io/project-js-plant/"
-              class="btn btn-primary d-flex justify-content-center mx-5"
+              class="btn btn-primary d-flex justify-content-center mx-5 mx-md-1"
               >To Project</a
             >
           </div>
         </div>
-        <div class="card1 col-md-3 col-sm-5 col-10">
+        <div
+          class="card1 col-10 col-sm-10 col-md-5 col-lg-5 mx-sm-2 mx-md-0 ms-md-3 col-xl-3"
+        >
           <img
             class="card-img-top1 h-50 w-100 justify-content-center"
             src="notes.jpeg.png"
@@ -191,12 +203,12 @@
             </p>
             <a
               href="https://nivte.github.io/notes/"
-              class="btn btn-primary d-flex justify-content-center mx-5"
+              class="btn btn-primary d-flex justify-content-center mx-5 mx-md-3"
               >To Project</a
             >
           </div>
         </div>
-        <div class="card1 col-md-3 col-sm-5 col-10">
+        <div class="card1 col-10 col-sm-10 col-md-5 mx-sm-2 mx-md-0 col-xl-3">
           <img
             class="card-img-top1 h-50 w-100 justify-content-center"
             src="kettles.jpeg.png"
@@ -220,14 +232,55 @@
       <!-- bootstrap cards end -->
     </section>
     <hr />
-    <section class="sec3">
-      <h2 class="sec3Title">sec3</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-        architecto vitae esse odio? Assumenda distinctio quae labore ab ipsum
-        voluptatibus, eveniet est sed tenetur, maiores sint architecto accusamus
-        enim placeat.
-      </p>
+    <section class="sec3"> <br>
+      <h2 class="sec3Title">Contact Me</h2>
+      <br />
+      <form class="theForm" action="https://formspree.io/f/moqbopby" method="post">
+        <input
+          style="border-radius: 10% ; background-color: #f2f2f2;"
+          class="firstNameInp"
+          placeholder="First Name"
+          type="text"
+          name="name"
+        />
+        <br /><br />
+
+        <input
+          style="border-radius: 10% ; background-color: #f2f2f2;"
+          class="surnameInp"
+          placeholder="Surname"
+          type="text"
+          name="surname"
+        />
+        <br />
+        <br />
+
+        <input
+        
+          style="border-radius: 10%; background-color: #f2f2f2;"
+          class="mailInp"
+          placeholder="E-mail"
+          type="text"
+          name="email"
+        />
+        <br />
+        <br />
+
+        <textarea
+          style="border-radius: 10% ; background-color: #f2f2f2;"
+          class="message"
+          name="message"
+          placeholder="Your Message"
+          id=""
+          cols="35"
+          rows="5"
+        ></textarea>
+        <br />
+        <br />
+        <br />
+
+        <button class="sendBtn" style="border-radius: 20% ; background-color: #f2f2f2;" class="sendBtn">Send</button>
+      </form>
     </section>
     <hr />
 
@@ -235,14 +288,15 @@
       <!-- bootstrap social media start -->
 
       <!-- bootstrap social media end -->
-      <h2 class="sec4Title">sec4</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut,
-        praesentium sapiente in tenetur quod consequatur non ut voluptas
-        corporis inventore porro ullam repellendus fugiat molestias, soluta
-        mollitia atque nesciunt aliquid?
-      </p>
-     
+      <h2 class="sec4Title">Technologies</h2>
+      <div class="langContainer">
+        <img class="htmlLogo" src="htmlL.jpeg" alt="" />
+        <img class="cssLogo" src="cssLogo.jpeg" alt="" />
+        <img class="scssLogo" src="sccsLogo.jpeg" alt="" />
+        <img class="bsLogo" src="bss.jpeg" alt="" />
+        <img class="jsLogo" src="jsLogo.jpeg" alt="" />
+        <img class="tsLogo" src="tss.jpeg" alt="" />
+      </div>
     </section>
     <hr />
     <footer>

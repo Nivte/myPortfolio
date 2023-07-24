@@ -9,18 +9,19 @@ header {
 
 nav {
   background-color: $whitecolor;
-  height: 3vh;
+  height: 10vh;
 }
 
 .page {
   color: $blackcolor;
-  font-size: 2rem;
+  font-size: 21vh;
   margin-left: 2vw;
 }
 
 h1 {
   color: $blackcolor;
   text-align: center;
+  font-size: 100vh;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
   color: $blackcolor;
   background-color: $whitecolor;
   position: relative;
-  left: 28vw;
+  left: 40vw;
 }
 
 .sec3Title {
@@ -46,7 +47,7 @@ body {
   color: $blackcolor;
   background-color: $whitecolor;
   position: relative;
-  left: -4vw;
+  left: 0vw;
 }
 
 p {
@@ -87,12 +88,11 @@ p {
 
 .sec3 {
   text-align: center;
+  background-color: $lightbluecolor;
 }
 
 .sec4 {
   text-align: center;
-
-
 }
 
 footer {
@@ -163,7 +163,59 @@ footer {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 900px) {
+// @media screen and (min-width: 1000px) {
+//   body {
+//     margin: 0vw;
+//   }
+
+//   h1 {
+//     width: 55vw;
+//     margin-left: 18vw;
+//   }
+
+//   h2 {
+//     position: absolute;
+//     left: 23vw;
+//   }
+
+//   .bioTitle {
+//     margin-right: 5vw;
+//     top: 35vh;
+//   }
+
+//   .bioSec {
+//     margin-top: 10vh;
+//     width: 80vw;
+//     height: 20vh;
+//     margin-left: 7vw;
+//     margin-bottom: 0vh;
+//   }
+
+//   .galleryTitle {
+//     color: $blackcolor;
+//     background-color: $whitecolor;
+//   }
+
+//   .btn {
+//     width: 30vw;
+//     position: relative;
+//     left: 15vw;
+//   }
+
+//   .sec3 {
+//     height: 30vh;
+//   }
+
+//   .sec4 {
+//     height: 25vh;
+//   }
+
+//   .bioSec h2 {
+//     margin-left: 19vw;
+//   }
+// }
+
+@media screen and (min-width: 570px) and(max-width:1000px) {
   body {
     margin: 0vw;
   }
@@ -191,6 +243,60 @@ footer {
     margin-bottom: 0vh;
   }
 
+  .galleryTitle {
+    color: $blackcolor;
+    background-color: $whitecolor;
+  }
+
+  .btn {
+    width: 30vw;
+    position: relative;
+    left: 15vw;
+  }
+
+  .sec3 {
+    height: 30vh;
+    font-size: 3vh;
+  }
+
+  .sec4 {
+    height: 25vh;
+  }
+
+  .bioSec h2 {
+    margin-left: 19vw;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  body {
+    margin: 0vw;
+  }
+
+  h1 {
+    width: 55vw;
+    margin-left: 18vw;
+  }
+
+  h2 {
+    position: absolute;
+    left: 23vw;
+  }
+
+  .bioTitle {
+    margin-right: 5vw;
+
+    top: 35vh;
+  }
+
+  .bioSec {
+    margin-top: 10vh;
+    width: 80vw;
+    height: 20vh;
+    margin-left: 7vw;
+    margin-bottom: 0vh;
+  }
+
   .btn {
     width: 30vw;
     position: relative;
@@ -202,10 +308,15 @@ footer {
   }
 
   .sec4 {
-    height: 25vh;
+    height: 45vh;
+    
   }
 
   .bioSec h2 {
     margin-left: 19vw;
+  }
+
+  .galleryTitle {
+    background-color: red;
   }
 }
