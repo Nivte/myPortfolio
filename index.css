@@ -17,6 +17,10 @@ nav {
 h1 {
   color: #0d0d0d;
   text-align: center;
+  font-size: 2.4vh;
+  position: relative;
+  top: 1.5vh;
+
 }
 
 body {
@@ -56,10 +60,14 @@ p {
   margin-left: 1vw;
 }
 
+
+
 .bioSec {
   text-align: center;
   font-size: 2.5vh;
 }
+
+
 
 .container {
   display: flex;
@@ -228,7 +236,7 @@ gap: 4vw;
   }
   .bioTitle {
     margin-right: 5vw;
-    top: 35vh;
+    top: 31vh;
   }
   .bioSec {
     margin-top: 10vh;
@@ -288,6 +296,8 @@ gap: 4vw;
     height: 12vh;
     width: 9vw;
   }
+
+
 
 
 }
