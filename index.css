@@ -258,4 +258,40 @@ gap: 4vw;
   }
 
 
-} /*# sourceMappingURL=index.css.map
+} 
+
+@media screen and (max-width:570px) {
+
+  .htmlLogo {
+    height: 13vh;
+    width: 9vw;
+  }
+
+  .cssLogo {
+    height: 12vh;
+    width: 9vw;
+  }
+
+  .scssLogo {
+    height: 12vh;
+    width: 9vw;
+  }
+  .bsLogo {
+    height: 12vh;
+    width: 9vw;
+  }
+  .jsLogo {
+    height: 12vh;
+    width: 9vw;
+  }
+  .tsLogo {
+    height: 12vh;
+    width: 9vw;
+  }
+
+
+}
+
+
+
+
