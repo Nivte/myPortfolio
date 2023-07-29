@@ -85,11 +85,10 @@ p {
   border-bottom-right-radius: 20%;
 }
 
-.btn {
+/* .btn {
   width: 10vw;
-  position: relative;
-  left: 3vw;
-}
+
+} */
 
 .sec3 {
   text-align: center;
@@ -245,11 +244,7 @@ gap: 4vw;
     margin-left: 7vw;
     margin-bottom: 0vh;
   }
-  .btn {
-    width: 30vw;
-    position: relative;
-    left: 15vw;
-  }
+ 
   .sec3 {
     height: 75vh;
   }
