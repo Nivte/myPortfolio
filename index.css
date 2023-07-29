@@ -214,6 +214,16 @@ gap: 4vw;
   width: 4vw;
 }
 
+.githubLogo {
+  height: 12vh;
+  width: 4vw;
+}
+
+.vsLogo {
+  height: 12vh;
+  width: 4vw;
+}
+
 
 @media screen and (min-width:701px) and (max-width:1200px) {
 
