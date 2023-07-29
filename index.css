@@ -310,4 +310,54 @@ gap: 4vw;
 
 
 
+@media screen and (max-width:450px) {
+
+
+
+  .bioSec {
+    text-align: center;
+    font-size: 2vh;
+  }
+
+  .htmlLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  
+  .cssLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  
+  .scssLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  .bsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  .jsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  .tsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  
+  .githubLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+  
+  .vsLogo {
+    height: 8vh;
+    width: 5vw;
+  }
+
+
+
+
+}
 
