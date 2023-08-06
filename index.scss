@@ -7,6 +7,22 @@ header {
   height: 10vh;
 }
 
+
+.downloadBtn {
+  color: #0d0d0d;
+  background-color: #70abdf;
+font-weight: 600;
+  height: 5vh;
+  width: 10vw;
+  position: relative;
+  left: 27.5vw;
+  margin-left: 17vw;
+  border-radius: 20%;
+  margin-bottom: 3vh;
+}
+
+
+
 nav {
   background-color: $whitecolor;
   height: 10vh;
