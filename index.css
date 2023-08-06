@@ -29,10 +29,27 @@ body {
 
 .galleryTitle {
   color: #0d0d0d;
-  background-color: #f2f2f2;
+  text-align: center;
+  margin-top: -10vh;
+  margin-bottom: 5vh;
+}
+
+.downloadBtn {
+  color: #0d0d0d;
+  background-color: #70abdf;
+font-weight: 600;
+  height: 5vh;
+  width: 10vw;
   position: relative;
-  left: 25vw;
+  left: 27.5vw;
   margin-left: 17vw;
+  border-radius: 20%;
+  margin-bottom: 3vh;
+}
+
+#gallery {
+  height: 150vh;
+  padding-top: 10vh;
 }
 
 .sec3Title {
@@ -212,12 +229,54 @@ footer {
 }
 
 @media screen and (min-width: 701px) and (max-width: 1200px) {
-  .galleryTitle {
+  /* .galleryTitle {
     margin-left: 10vw;
+  } */
+
+  #gallery {
+    height: 200vh;
+    padding-top: 10vh;
   }
+
+
+  .downloadBtn {
+    color: #0d0d0d;
+    background-color: #70abdf;
+   
+    width: 16vw;
+    left: 24.5vw;
+
+  }
+
+
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
+
+
+  #gallery {
+    height: 400vh;
+    padding-top: 10vh;
+  }
+
+
+  .galleryTitle {
+    color: #0d0d0d;
+  position: absolute;
+  left: 35vw;
+  }
+
+
+
+  
+  .downloadBtn {
+ 
+    width: 20vw;
+    left: 22.5vw;
+
+  }
+
+
   body {
     margin: 0vw;
   }
@@ -251,12 +310,24 @@ footer {
     margin-left: 19vw;
   }
 
-  .galleryTitle {
+  /* .galleryTitle {
     margin-left: 0vw;
-  }
+  } */
 }
 
 @media screen and (max-width: 570px) {
+
+
+  .downloadBtn {
+ 
+    width: 25vw;
+    left: 22.5vw;
+
+  }
+
+
+
+
   .htmlLogo {
     height: 13vh;
     width: 9vw;
@@ -286,10 +357,31 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+
+
   .bioSec {
     text-align: center;
     font-size: 2vh;
   }
+
+
+
+
+
+  .galleryTitle {
+
+
+  left: 28vw;
+  }
+
+  .downloadBtn {
+ 
+    width: 50vw;
+    left: 8vw;
+
+  }
+
+
 
   .htmlLogo {
     height: 8vh;
@@ -327,4 +419,15 @@ footer {
     height: 8vh;
     width: 5vw;
   }
+}
+
+
+
+@media screen and (max-width:330px) {
+
+  .galleryTitle {
+
+
+    left: 15vw;
+    }
 }
