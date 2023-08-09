@@ -37,7 +37,7 @@ body {
 .downloadBtn {
   color: #0d0d0d;
   background-color: #70abdf;
-font-weight: 600;
+  font-weight: 600;
   height: 5vh;
   width: 10vw;
   position: relative;
@@ -81,8 +81,8 @@ p {
 .container {
   display: flex;
   flex-flow: row wrap;
-  align-content: space-between;
-  justify-content: space-between;
+  align-content: space-around;
+  justify-content: space-around;
 }
 
 .card1 {
@@ -184,10 +184,11 @@ footer {
 }
 
 .langContainer {
-  margin-top: 6vh;
+  position: relative;
+  top: 5vh;
   display: flex;
   justify-content: center;
-  gap: 4vw;
+  gap: 5vw;
   /* background-color: #f2f2f2; */
 }
 
@@ -238,44 +239,31 @@ footer {
     padding-top: 10vh;
   }
 
-
   .downloadBtn {
     color: #0d0d0d;
     background-color: #70abdf;
-   
+
     width: 16vw;
     left: 24.5vw;
-
   }
-
-
 }
 
 @media screen and (max-width: 770px) {
-
-
   #gallery {
     height: 400vh;
     padding-top: 10vh;
   }
 
-
   .galleryTitle {
     color: #0d0d0d;
-  position: absolute;
-  left: 35vw;
+    position: absolute;
+    left: 35vw;
   }
 
-
-
-  
   .downloadBtn {
- 
     width: 20vw;
     left: 22.5vw;
-
   }
-
 
   body {
     margin: 0vw;
@@ -316,17 +304,10 @@ footer {
 }
 
 @media screen and (max-width: 570px) {
-
-
   .downloadBtn {
- 
     width: 25vw;
     left: 22.5vw;
-
   }
-
-
-
 
   .htmlLogo {
     height: 13vh;
@@ -357,31 +338,19 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
-
-
   .bioSec {
     text-align: center;
     font-size: 2vh;
   }
 
-
-
-
-
   .galleryTitle {
-
-
-  left: 28vw;
+    left: 28vw;
   }
 
   .downloadBtn {
- 
     width: 50vw;
     left: 8vw;
-
   }
-
-
 
   .htmlLogo {
     height: 8vh;
@@ -421,13 +390,8 @@ footer {
   }
 }
 
-
-
-@media screen and (max-width:330px) {
-
+@media screen and (max-width: 330px) {
   .galleryTitle {
-
-
     left: 15.01vw;
-    }
+  }
 }
